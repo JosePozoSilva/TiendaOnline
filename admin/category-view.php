@@ -1,14 +1,14 @@
 <p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, culpa quasi tempore assumenda, perferendis sunt. Quo consequatur saepe commodi maxime, sit atque veniam blanditiis molestias obcaecati rerum, consectetur odit accusamus.
+    Seccion para agregar las categorias de los productos
 </p>
 <ul class="breadcrumb" style="margin-bottom: 5px;">
     <li>
         <a href="configAdmin.php?view=category">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> &nbsp; Nueva Categoría
+            <i class="fa fa-plus-circle" aria-hidden="true"></i> &nbsp; Agregar Nueva Categoria
         </a>
     </li>
     <li>
-        <a href="configAdmin.php?view=categorylist"><i class="fa fa-list-ol" aria-hidden="true"></i> &nbsp; Categoría de productos</a>
+        <a href="configAdmin.php?view=categorylist"><i class="fa fa-list-ol" aria-hidden="true"></i> &nbsp; Mostrar Categorías de productos</a>
     </li>
 </ul>
 <div class="container">

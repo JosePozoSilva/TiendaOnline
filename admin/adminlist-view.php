@@ -1,5 +1,5 @@
 <p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, culpa quasi tempore assumenda, perferendis sunt. Quo consequatur saepe commodi maxime, sit atque veniam blanditiis molestias obcaecati rerum, consectetur odit accusamus.
+    Seccion para ver a todos los administradores registrados
 </p>
 <ul class="breadcrumb" style="margin-bottom: 5px;">
     <li>
@@ -19,14 +19,14 @@
         <div class="col-xs-12">
             <br><br>
             <div class="panel panel-info">
-                <div class="panel-heading text-center"><h4>Administradores del sistema</h4></div>
+                <div class="panel-heading text-center"><h4>Lista de Administradores del Sistema</h4></div>
                 <div class="table-responsive">
                     <table class="table table-striped table-hover">
                         <thead class="">
                             <tr>
-                                <th class="text-center">#</th>
+                                <th class="text-center">Numero</th>
                                 <th class="text-center">Nombre</th>
-                                <th class="text-center">Eliminar</th>
+                                <th class="text-center">Accion</th>
                             </tr>
                         </thead>
                         <tbody>

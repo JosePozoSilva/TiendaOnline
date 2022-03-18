@@ -2,15 +2,14 @@
 
 2. Ingrese a phpmyadmin o a su gestor de base de datos mysql.
 
-3. Cree una base de datos con el nombre que desee y posteriormente selecciónela
+3. Cree una base de datos con el nombre que desee y posteriormente selecciï¿½nela
 
 4. Importe la base de datos que se encuentra en la carpeta DataBase (Desmarque la casilla "Habilitar la revision de llaves foraneas")
 
-5. Diríjase a la carpeta "library"
+5. Dirï¿½jase a la carpeta "library"
 
-6. Abra el archivo configServer.php con su editor de código favorito,
-y configúrelo con los datos de su servidor.
+6. Abra el archivo configServer.php con su editor de cï¿½digo favorito,
+y configï¿½relo con los datos de su servidor.
 
 7. Usuario y clave: admin
 
-LISTO!! EL SISTEMA ESTA CONFIGURADO Y LISTO PARA USAR

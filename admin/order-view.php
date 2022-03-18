@@ -1,5 +1,5 @@
 <p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, culpa quasi tempore assumenda, perferendis sunt. Quo consequatur saepe commodi maxime, sit atque veniam blanditiis molestias obcaecati rerum, consectetur odit accusamus.
+    Seccion de Pedidos
 </p>
 <div class="container">
   <div class="row">
@@ -11,15 +11,15 @@
                     <table class="table table-striped table-hover">
                         <thead class="">
                             <tr>
-                              <th class="text-center">#</th>
-                                <th class="text-center">N. Deposito</th>
-                                <th class="text-center">Fecha</th>
-                                <th class="text-center">Cliente</th>
-                                <th class="text-center">Total</th>
-                                <th class="text-center">Estado</th>
-                                <th class="text-center">Envío</th>
-                                <th class="text-center">Opciones</th>
-                                <th class="text-center">Eliminar</th>
+                              <th class="text-center">NUMERO </th>
+                                <th class="text-center">N. DEPOSITO</th>
+                                <th class="text-center">FECHA</th>
+                                <th class="text-center">CLIENTE</th>
+                                <th class="text-center">TOTAL</th>
+                                <th class="text-center">ESTADO</th>
+                                <th class="text-center">ENVIO</th>
+                                <th class="text-center">OPCIONES</th>
+                                <th class="text-center">ELIMINAR</th>
                             </tr>
                         </thead>
                         <tbody>

@@ -1,5 +1,5 @@
 <p class="lead">
-    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eveniet, culpa quasi tempore assumenda, perferendis sunt. Quo consequatur saepe commodi maxime, sit atque veniam blanditiis molestias obcaecati rerum, consectetur odit accusamus.
+    Seccion para agregar más categorias
 </p>
 <ul class="breadcrumb" style="margin-bottom: 5px;">
     <li>
@@ -21,12 +21,12 @@
                     <table class="table table-striped table-hover">
                         <thead class="">
                             <tr>
-                            	<th class="text-center">#</th>
-                                <th class="text-center">Código</th>
-                                <th class="text-center">Nombre</th>
-                                <th class="text-center">Descripción</th>
+                            	<th class="text-center">Numero</th>
+                                <th class="text-center">CODIGO</th>
+                                <th class="text-center">NOMBRE</th>
+                                <th class="text-center">DESCRIPCIÓN</th>
                                 <th class="text-center">Actualizar</th>
-                              	<th class="text-center">Eliminar</th>
+                              	<th class="text-center">ELIMINAR</th>
                             </tr>
                         </thead>
                         <tbody>

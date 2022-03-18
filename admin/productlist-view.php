@@ -1,5 +1,5 @@
 <p class="lead">
-	Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum voluptates, corporis nisi dolores cumque obcaecati perferendis, quisquam, ipsa commodi labore molestias dolor itaque nam cupiditate totam, ea dicta? Sit, asperiores?
+La lista de productos actuales son:
 </p>
 <ul class="breadcrumb" style="margin-bottom: 5px;">
     <li>
@@ -21,36 +21,31 @@
                   <table class="table table-striped table-hover">
                       <thead class="">
                           <tr>
-                          	  <th class="text-center">#</th>
-                              <th class="text-center">Código</th>
-                              <th class="text-center">Nombre</th>
-                              <th class="text-center">Categoría</th>
-                              <th class="text-center">Precio</th>
-                              <th class="text-center">Modelo</th>
-                              <th class="text-center">Marca</th>
-                              <th class="text-center">Stock</th>
-                              <th class="text-center">Proveedor</th>
-                              <th class="text-center">Estado</th>
-                              <th class="text-center">Actualizar</th>
-                              <th class="text-center">Eliminar</th>
+                          	  <th class="text-center">NUMERO</th>
+                              <th class="text-center">CÓDIGO</th>
+                              <th class="text-center">NOMBRE</th>
+                              <th class="text-center">CATEGORIA</th>
+                              <th class="text-center">PRECIO</th>
+                              <th class="text-center">MODELO</th>
+                              <th class="text-center">MARCA</th>
+                              <th class="text-center">STOCK</th>
+                              <th class="text-center">PROVEEDOR</th>
+                              <th class="text-center">ESTADO</th>
+                              <th class="text-center">ACTUALIZAR</th>
+                              <th class="text-center">ELIMINAR</th>
                           </tr>
                       </thead>
                       <tbody>
                         <?php
                         	$mysqli = mysqli_connect(SERVER, USER, PASS, BD);
 							mysqli_set_charset($mysqli, "utf8");
-
 							$pagina = isset($_GET['pag']) ? (int)$_GET['pag'] : 1;
 							$regpagina = 30;
 							$inicio = ($pagina > 1) ? (($pagina * $regpagina) - $regpagina) : 0;
-
 							$productos=mysqli_query($mysqli,"SELECT SQL_CALC_FOUND_ROWS * FROM producto LIMIT $inicio, $regpagina");
-
 							$totalregistros = mysqli_query($mysqli,"SELECT FOUND_ROWS()");
 							$totalregistros = mysqli_fetch_array($totalregistros, MYSQLI_ASSOC);
-
 							$numeropaginas = ceil($totalregistros["FOUND_ROWS()"]/$regpagina);
-
 							$cr=$inicio+1;
                             while($prod=mysqli_fetch_array($productos, MYSQLI_ASSOC)){
                         ?>
@@ -123,8 +118,6 @@
                             }
                         }
                     ?>
-                    
-
                     <?php if($pagina == $numeropaginas): ?>
                         <li class="disabled">
                             <a>

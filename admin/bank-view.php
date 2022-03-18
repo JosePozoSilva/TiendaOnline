@@ -46,7 +46,7 @@
             ?>
               <div class="container-form-admin">
               <form action="./process/regBank.php" method="POST" role="form" class="FormCatElec" data-form="save">
-                <h3 class="text-info text-center">Agregar Cuenta de banco</h3>
+                <h3 class="text-info text-center">Agregar Cuenta de bancaria</h3>
                 <div class="container-fluid">
                     <div class="row">
                         <div class="col-xs-12 col-sm-6">
@@ -57,13 +57,13 @@
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <div class="form-group label-floating">
-                                <label class="control-label">Nombre del banco</label>
+                                <label class="control-label">Nombre del Banco</label>
                                 <input class="form-control" type="text" name="bancoNombre" maxlength="50" required="">
                             </div>
                         </div>
                         <div class="col-xs-12 col-sm-6">
                             <div class="form-group label-floating">
-                                <label class="control-label">Nombre del beneficiario</label>
+                                <label class="control-label">Nombre del Beneficiario</label>
                                 <input class="form-control" type="text" name="bancoBeneficiario" maxlength="50" required="">
                             </div>
                         </div>
