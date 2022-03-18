@@ -1,0 +1,26 @@
+ÈXAMEN TEORICO JOSE ARMANDO POZO SILVA
+
+Conforme a las indicaciones brindadas en la descripcion de las necesidades del cliente,
+lo más adecuado seria realizar un sistema Web, ya que este tendra 2 tipos de usuario, un usuario de tipo 
+administrador, que en este caso sera el del (Gerente), tambien habran usuario administradores, que seran los 
+encargados de actualizar constantemente la lista de productos en el sistema de ventas Web.
+El ultimo tipo de usuario es el del cliente, este tendra acceso a todo el catalogo de productos que ofrece la tienda
+TARGUS, y podra adicionar productos al carrito de compras, los podra remover, y finalmente podra realizar la compra.
+Asi mismo los usuarios administradores, podran realzar un ABM (altas , bajas y modificaciones ) de usuarios, clientes 
+y productos en toda la empresa, es decir, podran adicionar, remover y modificar datos de productos, administradores,
+proveedores de productos, y clientes.
+
+Por lo cual, los requsitos tecnicos para realizar el proyecto son:
+Un servidor local (de momento), se va utilizar el servidor apache de Xampp en su version 8
+Para la busqueda de imagenes y datos multimedia, se utilizaran imagenes del repositorio de google
+Para el desarrollo del codigo del sistema web, se utilizara el programa Visual Studio Code en su version Version: 1.65.2 (user setup)
+Commit: c722ca6c7eed3d7987c0d5c3df5c45f6b15e77d1
+Date: 2022-03-10T14:33:55.248Z
+Electron: 13.5.2
+Chromium: 91.0.4472.164
+Node.js: 14.16.0
+V8: 9.1.269.39-electron.0
+OS: Windows_NT x64 10.0.22000
+, se utilizaran Estilos, bootstraps, que estan alojados en servidores en la internet.
+Para esto, se utilizara una laptop, core I5 de 10ma generacion,
+se nececitara acceso a la red de internet

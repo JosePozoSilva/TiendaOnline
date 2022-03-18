@@ -15,26 +15,50 @@
             <li data-target="#slider-store" data-slide-to="0" class="active"></li>
             <li data-target="#slider-store" data-slide-to="1"></li>
             <li data-target="#slider-store" data-slide-to="2"></li>
+            <li data-target="#slider-store" data-slide-to="3"></li>
+            <li data-target="#slider-store" data-slide-to="4"></li>
+            <li data-target="#slider-store" data-slide-to="5"></li>
         </ol>
 
         <!-- Wrapper for slides -->
         <div class="carousel-inner" role="listbox">
             <div class="item active">
-                <img src="./assets/img/slider1.jpg" alt="slider1">
+                <img src="./assets/img/sli1.jpg" alt="slider1">
                 <div class="carousel-caption">
-                    Text Slider 1
+                    
                 </div>
             </div>
             <div class="item">
-                <img src="./assets/img/slider2.jpg" alt="slider2">
+                <img src="./assets/img/sli2.jpg" alt="slider2">
                 <div class="carousel-caption">
-                    Text Slider 2
+                    
                 </div>
             </div>
             <div class="item">
-                <img src="./assets/img/slider3.jpg" alt="slider3">
+                <img src="./assets/img/sli3.jpg" alt="slider3">
                 <div class="carousel-caption">
-                    Text Slider 3
+                   
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/img/sli4.jpg" alt="slider4">
+                <div class="carousel-caption">
+                   
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/img/sli5.jpg" alt="slider4">
+                <div class="carousel-caption">
+                   
+                </div>
+            </div>
+
+            <div class="item">
+                <img src="./assets/img/sli6.jpg" alt="slider4">
+                <div class="carousel-caption">
+                   
                 </div>
             </div>
         </div>
@@ -109,7 +133,7 @@
                 </div>
 
                 <div class="col-xs-12 col-sm-6">
-                    <img src="assets/img/tv.png" alt="Smart-TV" class="img-responsive" style="width: 70%; display: block; margin: 0 auto;">
+                    <img src="assets/img/mochila-maleta.jpg" alt="Smart-TV" class="img-responsive" style="width: 70%; display: block; margin: 0 auto;">
                 </div>
             </div>
         </div>
